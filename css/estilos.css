@@ -1,0 +1,730 @@
+/* Tipografía general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+/* Logo */
+#fh5co-logo .logo-img {
+  max-height: 100px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+/* Navegación */
+nav {
+  background-color: #174e3d;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Secciones */
+section {
+  padding: 2em;
+  text-align: center;
+}
+section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Formulario */
+form {
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form button {
+  padding: 0.8em 1.5em;
+  background-color: #174e3d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+/* Navegación profesional */
+.fh5co-nav {
+  background-color: #174e3d;
+  color: white;
+  padding: 1em 0;
+}
+
+.top-menu .container {
+  display: flex;
+  justify-content: center; /* Cambiado */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+
+#fh5co-logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.menu-1 ul li {
+  position: relative;
+}
+
+.menu-1 ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: block;
+}
+
+.menu-1 ul li a:hover,
+.menu-1 ul li.active a {
+  background-color: #2e6e5c;
+  border-radius: 5px;
+}
+
+/* Dropdown */
+.menu-1 ul li.has-dropdown:hover .dropdown {
+  display: block;
+}
+
+.menu-1 ul .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  color: black;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.menu-1 ul .dropdown li {
+  display: block;
+}
+
+.menu-1 ul .dropdown li a {
+  color: #333;
+  padding: 10px 15px;
+  background-color: white;
+}
+
+.menu-1 ul .dropdown li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Botones destacados */
+.menu-1 ul li.btn-cta a span {
+  background-color: #f39c12;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
+}
+
+/* Franja verde del formulario de contacto */
+.seccion-contacto {
+  background-color: white;
+  color: white;
+  padding: 3em 1em;
+  text-align: center;
+}
+
+.seccion-contacto h2 {
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+.seccion-contacto form {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.seccion-contacto input,
+.seccion-contacto textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+.seccion-contacto input::placeholder,
+.seccion-contacto textarea::placeholder {
+  color: #555;
+}
+
+.seccion-contacto button {
+  background-color: #f39c12;
+  color: white;
+  padding: 0.8em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#imagen img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor en columnas */
+/* Formulario elegante dentro de contacto */
+/* Contenedor en columnas */
+.contacto-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2em;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+/* Imagen a la izquierda con tamaño ajustado */
+.contacto-imagen img {
+  max-width: 380px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Formulario con estilo PRO */
+.seccion-contacto form {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f1f9f7;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Campos del formulario */
+.seccion-contacto input,
+.seccion-contacto textarea {
+  width: 100%;
+  padding: 0.9em;
+  margin-bottom: 1.2em;
+  border: 2px solid #cce4df;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.seccion-contacto input:focus,
+.seccion-contacto textarea:focus {
+  border-color: #1d6c57;
+  outline: none;
+  box-shadow: 0 0 5px rgba(29, 108, 87, 0.3);
+}
+
+/* Botón del formulario */
+.seccion-contacto button {
+  background-color: #1d6c57;
+  color: white;
+  padding: 0.9em 1.8em;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.seccion-contacto button:hover {
+  background-color: #25a087;
+  transform: translateY(-2px);
+}
+
+/* Etiquetas */
+.seccion-contacto label {
+  display: block;
+  margin-bottom: 0.4em;
+  font-weight: bold;
+  color: #174e3d;
+}
+
+
+/* =======================
+   SECCIÓN: CÓMO FUNCIONA
+========================== */
+.seccion-funciona {
+  background-color: #174e3d;
+  color: white;
+  text-align: center;
+  padding: 4em 1em;
+}
+
+.seccion-funciona h2 {
+  font-size: 2.4em;
+  margin-bottom: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Cuadro de ítems */
+.funciona-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2em;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.funciona-item {
+  flex: 1 1 200px;
+  max-width: 250px;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Círculo con emoji */
+.icono {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  color: #174e3d;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 50%;
+  line-height: 60px;
+  margin: 0 auto 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Botón */
+.funciona-boton {
+  margin-top: 2.5em;
+}
+
+.btn-funciona {
+  padding: 0.8em 1.6em;
+  border: 2px solid white;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-funciona:hover {
+  background-color: white;
+  color: #174e3d;
+  transform: scale(1.05);
+}
+
+/* Pie de pagina */
+
+.footer {
+  background-color: #174e3d;
+  color: white;
+  padding: 3em 1em 1em;
+  font-size: 0.95em;
+}
+
+.footer-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2em;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-col {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+
+.footer-logo img.logo-footer {
+  width: 40px;
+  height: auto;
+}
+
+.footer-col h4 {
+  margin-bottom: 0.8em;
+  font-weight: bold;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 0.5em;
+}
+
+.footer-col ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Redes sociales */
+.footer-social {
+  margin-top: 1em;
+}
+
+.footer-social a {
+  margin-right: 10px;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  opacity: 0.7;
+}
+
+/* Newsletter */
+.newsletter {
+  display: flex;
+  margin-top: 1em;
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.newsletter input {
+  padding: 0.6em 1em;
+  border: none;
+  flex: 1;
+  min-width: 150px;
+}
+
+.newsletter button {
+  background-color: #174e3d;
+  color: white;
+  border: none;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #25a087;
+}
+
+/* Línea inferior */
+.footer-bottom {
+  text-align: center;
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.85em;
+}
+
+/* Estilos para los enlaces en el pie de página */
+.footer a {
+	color: white;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.footer a:hover {
+	color: #ddd; /* un blanco más suave al pasar el mouse */
+}
+
+/* ========== ESTRUCTURA GENERAL ========== */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Contenedor general */
+.wrapper {
+  flex: 1;
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 80px;
+  background-color: #174e3d; 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar-logo img {
+  width: 70px; 
+  margin-bottom: 2em;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-top: 2em;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: #bbb;
+  font-size: 1.4em;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-btn:hover {
+  color: white;
+}
+
+.nav-btn.active {
+  color: #00d6b3;
+  position: relative;
+}
+
+.nav-btn.active::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 20px;
+  background-color: #00d6b3;
+  border-radius: 2px;
+}
+
+/* ========== CONTENIDO PRINCIPAL ========== */
+
+.main {
+  margin-left: 80px; /* espacio para el sidebar */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f9f8;
+}
+
+.main h1 {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+  color: #174e3d;
+}
+
+.perfil {
+  width: 200px; /* Aumenta el tamaño */
+  margin: 0 auto 2em auto; /* Centra horizontalmente y mantiene el margen inferior */
+  display: block; /* Necesario para centrar imágenes si usas <img> */
+}
+
+
+/* Área que ocupa el contenido real */
+.contenido {
+  flex: 1;
+  padding: 2em;
+  text-align: center;
+}
+
+/* ========== CARDS DE CURSOS ========== */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: calc(25% - 20px);
+  min-width: 220px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-placeholder {
+  background-color: #d9d9d9;
+  height: 100px;
+  border-radius: 4px;
+}
+
+.info {
+  padding: 10px;
+}
+
+.progress-bar {
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 3px;
+}
+
+/* ========== FOOTER ========== */
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+/*INFORMACION PERFIL*/
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.perfil-foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.perfil-info p {
+  margin: 0.5em 0;
+  font-size: 1.1em;
+}
+
+/** Tabla estudiante*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 2em;
+}
+
+.table-container {
+  max-width: 1000px;
+  margin: auto;
+  overflow-x: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+thead {
+  background-color: #343a40;
+  color: white;
+}
+
+th, td {
+  padding: 0.8em;
+  border: 1px solid #ddd;
+}
+
+.perfil {
+  width: 80px;
+  margin: 0 auto;
+  display: block;
+}
+
+.edit {
+  background-color: #ffc107;
+  border: none;
+  padding: 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: #dc3545;
+  border: none;
+  padding: 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}

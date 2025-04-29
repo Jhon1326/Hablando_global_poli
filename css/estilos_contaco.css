@@ -1,0 +1,123 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente principal de la página */
+    margin: 0; /* Elimina márgenes predeterminados */
+    padding: 0; /* Elimina relleno predeterminado */
+    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+    background-color: #f9f9f9; /* Color de fondo de la página */
+}
+
+/* Estilos para el encabezado de la página */
+.header {
+    background-color: #174e3d; /* Color de fondo del encabezado */
+    color: white; /* Color del texto en el encabezado */
+    padding: 15px; /* Espaciado interno del encabezado */
+    display: flex; /* Usa flexbox para organizar los elementos */
+    justify-content: space-between; /* Espacia los elementos a los extremos */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+/* Estilos para el logo dentro del encabezado */
+.header img {
+    height: 100px; /* Altura del logo */
+    width: auto; /* Mantiene la proporción del logo */
+    display: inline-block; /* Asegura que el logo no ocupe todo el ancho */
+    margin: 0; /* Elimina márgenes adicionales */
+}
+
+/* Estilos para los enlaces del menú de navegación */
+.header nav a {
+    color: white; /* Color del texto de los enlaces */
+    margin: 0 10px; /* Espaciado horizontal entre los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Efecto hover para los enlaces del menú */
+.header nav a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el cursor */
+}
+
+/* Contenedor para el logo y el texto del encabezado */
+.logo-container {
+    display: flex; /* Usa flexbox para alinear el logo y el texto */
+    align-items: center; /* Alinea verticalmente el logo y el texto */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Estilos específicos para la imagen del logo */
+.logo-img {
+    height: 80px; /* Altura del logo */
+    width: auto; /* Mantiene la proporción del logo */
+    margin-right: 10px; /* Espaciado entre el logo y el texto */
+}
+
+/* Estilos para el texto del logo */
+.logo-text {
+    font-size: 24px; /* Tamaño del texto del logo */
+    font-weight: bold; /* Negrita para el texto */
+    color: white; /* Color del texto */
+}
+
+/* Contenedor principal de la página */
+.container {
+    display: flex; /* Usa flexbox para organizar las secciones */
+    padding: 20px; /* Espaciado interno del contenedor */
+}
+
+/* Estilos para las secciones de información de contacto y formulario */
+.contact-info, .contact-form {
+    flex: 1; /* Cada sección ocupa el mismo espacio */
+    margin: 10px; /* Espaciado externo entre las secciones */
+}
+
+/* Estilos para los títulos dentro de la sección de información de contacto */
+.contact-info h2 {
+    font-size: 1.5em; /* Tamaño del título */
+}
+
+/* Estilos para los párrafos dentro de la sección de información de contacto */
+.contact-info p {
+    margin: 5px 0; /* Espaciado vertical entre los párrafos */
+}
+
+/* Estilos específicos para ciertos párrafos dentro de la sección de contacto */
+.contact-info p:nth-child(4),
+.contact-info p:nth-child(5),
+.contact-info p:nth-child(6) {
+    margin-top: 30px; /* Espaciado superior adicional */
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form form {
+    display: flex; /* Usa flexbox para organizar los campos */
+    flex-direction: column; /* Coloca los campos en una columna */
+}
+
+/* Estilos para los campos de entrada y el área de texto */
+.contact-form input, .contact-form textarea {
+    margin: 10px 0; /* Espaciado vertical entre los campos */
+    padding: 10px; /* Espaciado interno dentro de los campos */
+    font-size: 1em; /* Tamaño del texto dentro de los campos */
+}
+
+/* Estilos para el botón de envío del formulario */
+.contact-form button {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #174e3d; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Efecto hover para el botón de envío */
+.contact-form button:hover {
+    background-color: #174e3d; /* Mantiene el color del fondo */
+}
+
+/* Estilos para el pie de página */
+.footer {
+    text-align: center; /* Centra el texto del pie de página */
+    padding: 10px; /* Espaciado interno del pie de página */
+    background-color: #174e3d; /* Color de fondo del pie de página */
+    color: white; /* Color del texto del pie de página */
+}
